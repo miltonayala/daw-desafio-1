@@ -55,12 +55,4 @@ A continuación se proponen tareas clave para repartir entre los miembros del gr
 
 ---
 
-## 🗂️ Repositorio
-
-- Crear un repositorio para centralizar el trabajo del grupo  
-- Asegurarse de mantener el código actualizado y organizado  
-- Se recomienda trabajar con ramas por sección o por persona  
-
----
-
 ¡Mucho éxito, equipo! 💪
