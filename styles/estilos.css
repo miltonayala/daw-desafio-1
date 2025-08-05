@@ -43,15 +43,16 @@
 }
 
 .btn {
-  background-color: #5bcefa;
+  background-color: #e50914;
   color: #ffffff;
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 0.25rem;
     cursor: pointer;
+    text-decoration: none;
 }
 .btn:hover {
-  background-color: #2b7a9d;
+  background-color: #5f070b;
 }
 
 .link {
@@ -64,13 +65,22 @@
   text-decoration: underline;
 }
 
+.border {
+    border: 1px solid #2a2a2a;
+}
+
+.card {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    border: 1px solid #2a2a2a;
+
+}
+
 .card-bg {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 
-.border {
-    border: 1px solid #2a2a2a;
-}
 
 .shadow-dark {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.15);
