@@ -20,6 +20,24 @@ Desarrollar una página web estática utilizando **HTML5** y **CSS3**, la cual d
 
 ---
 
+## 💻 Nombres de Clases estandarizados
+
+Debes utilizar estos nombres en las clases de los elementos para que el formato sea consistente en todos los componentes/paginas y mediaqueries, porfavor! A esto también están atados los colores que definimos en el grupo. 
+
+- .body-bg: fondo del sitio
+- .section-bg: fondo de cada sección
+- .text-main: texto normal
+- .title: títulos principales (h1, h2)
+- .subtitle: subtítulos (h3, h4)
+- .btn: botón general
+- .btn:hover : hover en botones
+- .link : para enlaces
+- .card-bg  : fondo de cajas tipo "tarjeta"
+- .border : bordes y líneas divisoras
+- .shadow-dark : sombras para elementos flotantes
+
+
+
 ## ✅ Criterios de evaluación
 
 - Se desarrolló la página inicial con el enlace de los 3 artículos  
