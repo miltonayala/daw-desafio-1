@@ -44,12 +44,15 @@
 
 .btn {
   background-color: #e50914;
-  color: #ffffff;
-    padding: 0.5rem 1rem;
-    border: none;
-    border-radius: 0.25rem;
-    cursor: pointer;
-    text-decoration: none;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  text-align: center;
+  box-sizing: border-box;
+  flex: 1 1 auto;
+  min-width: 120px;
 }
 .btn:hover {
   background-color: #5f070b;
@@ -102,4 +105,119 @@ header {
 footer {
     padding: 1rem;
     text-align: center;
+}
+
+.social-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.article-header-img {
+  display: block;
+  width: auto;
+  height: auto;      
+  margin: 1.5rem auto; 
+  border-radius: 0.5rem;
+}
+
+
+@media (max-width: 600px) {
+  .card {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .article-preview {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .preview-img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+  }
+
+    .article-header-img {
+    margin: 1rem auto;
+    height: 200px;
+  }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .card {
+    margin: 1.5rem;
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .subtitle {
+    font-size: 1.3rem;
+  }
+
+  .btn {
+    flex: 1 1 30%;
+    max-width: 30%;
+  }
+
+  .article-preview {
+    gap: 0.75rem;
+  }
+
+  
+    .article-header-img {
+    margin: 1rem auto;
+    height: 300px;
+  }
+}
+
+
+@media (min-width: 1025px) {
+  .card {
+    max-width: 900px;
+    margin: 2rem auto;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    flex: 1 1 30%;
+    max-width: 30%;
+  }
+
+  .article-preview {
+    gap: 1rem;
+  }
+
+      .article-header-img {
+    margin: 1rem auto;
+    height: 400px;
+  }
 }
