@@ -1,0 +1,46 @@
+.article-preview {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.preview-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 0.25rem;
+    border: 1px solid #2a2a2a;
+}
+
+.btn-facebook {
+    background-color: #3b5998;
+}
+
+.btn-facebook:hover {
+    background-color: #2d4373;
+}
+
+.btn-twitter {
+    background-color: #1da1f2;
+}
+
+.btn-twitter:hover {
+    background-color: #0d8ddf;
+}
+
+.btn-instagram {
+    background-color: #e1306c;
+}
+
+.btn-instagram:hover {
+    background-color: #c1235a;
+}
+
+.btn-youtube {
+    background-color: #ff0000;
+}
+
+.btn-youtube:hover {
+    background-color: #cc0000;
+}
