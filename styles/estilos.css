@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
+
 
 
 /* porfavor usar estos nombres de clases para los estilos...
@@ -30,14 +31,14 @@
 }
 
 .title {
-  font-family: 'Creepster', cursive;
+  font-family: 'Jolly Lodger', cursive;
   font-size: 2rem;
   font-weight: 700;
   color: #e50914;
 }
 
 .subtitle {
-  font-family: 'Creepster', cursive;
+  font-family: 'Jolly Lodger', cursive;
   font-size: 1.5rem;
   font-weight: 600;
   color: #ff3c00;
