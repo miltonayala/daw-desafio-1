@@ -2,14 +2,55 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="../../styles/estilos.css" />
-    <link rel="stylesheet" href="../../styles/articulos_style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Inicio recursos globales-->
+    <link rel="stylesheet" href="../../styles/grilla.css" />
+    <link rel="stylesheet" href="../../styles/estilos.css" />
+    <link rel="stylesheet" href="../../styles/icons.css" />
+    <link rel="stylesheet" href="../../styles/articulos_style.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <!--Fin Recursos-->
     <title>Creepypastas Salvadoreñas - La Siguanaba de Metrocentro</title>
 </head>
 
 <body>
+    <!--Unicamente pegar aqui el codigo del navbar-->
+        <div class="body-bg">
+      <nav>
+        <input type="checkbox" class="hiden" id="menuBoton" />
+        <div class="flex items-center justify-between p-4 movil">
+          <div class="movil">
+            <img
+              src="../../images/logo-variante.png"
+              class="neon" style="width: 90px; margin-top: 1rem"
+            />
+          </div>
+          <label for="menuBoton"
+            ><span class="icon-menu text-main"></span
+          ></label>
+        </div>
+        <div class="flex items-center justify-between">
+          <div class="web p-4">
+            <img
+              src="../../images/logo-variante.png"
+              class="neon"
+              style="width: 110px; margin-top: 1rem"
+            />
+          </div>
+          <ul class="items">
+            <li><a href="#" class="p-4">Inicio</a></li>
+            <li><a href="#" class="p-4">Historias</a></li>
+            <li><a href="#" class="p-4">Articulos</a></li>
+            <li><a href="#" class="p-4">Acerca de</a></li>
+            <li><a href="#" class="p-4">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+        <!--Fin de navbar-->
+        <!--Comienzo de historia / leyenda-->
     <div class="card card-bg">
         <h1 class="title">Creepypastas Salvadoreñas</h1>
         <h2 class="subtitle">La Siguanaba de Metrocentro</h2>
@@ -79,8 +120,47 @@
                 <a href="articulo3.html" class="link">El Cipitio bajo el puente del río Acelhuate</a>
             </div>
         </div>
-
-
+        </div>
+        <!--Fin de leyenda-->
+        <!--Inicio de codigo footer-->
+        <footer>
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h4 class="subtitle">Sobre nosotros</h4>
+                    <p>Somos una comunidad dedicada a recopilar parte de la
+                        cultura Salvadoreña.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="subtitle">Enlaces útiles</h4>
+                    <ul>
+                        <li><a href="/contacto.html"
+                                class="link">Contacto</a></li>
+                        <li><a href="/politica.html" class="link">Política de
+                                privacidad</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="subtitle">Síguenos</h4>
+                    <div class="social-icons">
+                        <a class="link" href="https://x.com/" target="_blank"
+                            rel="noopener noreferrer"><i
+                                class="fa-brands fa-x-twitter"></i></a>
+                        <a class="link" href="https://www.facebook.com/"
+                            target="_blank" rel="noopener noreferrer"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="link" href="https://www.youtube.com/"
+                            target="_blank" rel="noopener noreferrer"><i
+                                class="fab fa-youtube"></i></a>
+                        <a class="link" href="https://www.tiktok.com/explore"
+                            target="_blank" rel="noopener noreferrer"><i
+                                class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 EquipoDAW. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+        <!--Fin de Código Footer-->
 </body>
-
 </html>
