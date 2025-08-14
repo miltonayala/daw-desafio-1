@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
 
 
 
@@ -22,6 +23,30 @@
   color: #212529;
 }
 
+.main-content {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin: 2rem auto;
+  max-width: 1100px;
+  padding: 1.5rem;
+  background-color: #121212;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.125rem 0.5rem rgba(0,0,0,0.18);
+}
+
+.preview-section {
+  flex: 1 1 300px;
+  min-width: 300px;
+  background-color: #181818;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.12);
+  padding: 1.5rem;
+  margin: 0.5rem 0;
+  border: 1px solid #2a2a2a;
+}
+
+
 .section-bg {
   background-color: #121212;
 }
@@ -32,16 +57,17 @@
 
 .title {
   font-family: 'Jolly Lodger', cursive;
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 700;
   color: #e50914;
 }
 
 .subtitle {
   font-family: 'Jolly Lodger', cursive;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: 600;
   color: #ff3c00;
+  margin-bottom: 0.5rem;
 }
 
 .btn {
@@ -94,12 +120,17 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
-  line-height: 1.6;
+  font-family: 'IBM Plex Sans', 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
   margin: 0;
   padding: 0;
   color: #e0e0e0;
   background-color: #0a0a0a;
+}
+
+.line-spacing {
+    line-height: 1.6;
 }
 
 header {
@@ -235,14 +266,6 @@ footer {
   .card {
     max-width: 900px;
     margin: 2rem auto;
-  }
-
-  .title {
-    font-size: 2rem;
-  }
-
-  .subtitle {
-    font-size: 1.5rem;
   }
 
   .btn {
