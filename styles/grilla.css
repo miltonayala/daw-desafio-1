@@ -28,7 +28,7 @@
   padding: 0.75rem;
 }
 .p-4 {
-  padding: 1rem;
+  padding: 0.5rem;
 }
 .p-5 {
   padding: 1.25rem;
@@ -112,6 +112,7 @@ nav::after {
 }
 
 ul.items {
+  padding-right: 2.5rem;
   width: 100%;
   list-style: none;
   max-height: 0;
