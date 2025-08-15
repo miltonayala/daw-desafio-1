@@ -238,6 +238,13 @@ footer {
     margin: 1rem auto;
     height: 200px;
   }
+
+  .sidebar {
+    position: static;
+    width: auto;
+    max-width: none;
+    margin-top: 1rem;
+  }
 }
 
 @media (min-width: 601px) and (max-width: 1024px) {
@@ -266,25 +273,46 @@ footer {
     margin: 1rem auto;
     height: 300px;
   }
+
+  .sidebar {
+    position: static;
+    width: auto;
+    max-width: none;
+    margin-top: 1rem;
+  }
 }
 
 @media (min-width: 1025px) {
-  .card {
-    max-width: 900px;
-    margin: 2rem auto;
+  .card { max-width: 900px; margin: 2rem auto; }
+
+  #post { box-sizing: border-box;  }
+
+#post{
+    margin-right: 500px;         
+    width: min(900px, calc(100vw - 360px - 4rem));
   }
 
-  .btn {
-    flex: 1 1 30%;
-    max-width: 30%;
+  #post.card { max-width: none; }
+
+  .sidebar {
+    position: fixed;
+    top: 110px; 
+    right: 2rem;
+    width: 320px;
+    max-width: 320px;
+    margin: 0;
+    z-index: 50;
   }
 
-  .article-preview {
-    gap: 1rem;
-  }
+  .article-header-img { margin: 1rem auto; height: 400px; }
+  .article-preview { gap: 1rem; }
+  .sidebar .article-preview { align-items: center; gap: .75rem; }
+  .sidebar .preview-img { width: 80px; height: 80px; object-fit: cover; }
 
-  .article-header-img {
-    margin: 1rem auto;
-    height: 400px;
-  }
 }
+
+@media (max-width: 1024px) {
+  #post{ margin-right: 0; width: auto; }
+  .sidebar{ position: static; width: auto; max-width: none; margin-top: 1rem; }
+}
+
